@@ -140,6 +140,7 @@ footer {
   .portfolio{
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-end;
   } 
 
   .portfolio > div {
@@ -154,10 +155,31 @@ footer {
   .portfolio .surf-report{
     line-height: 150px;
     width: 1000px;
-    justify-content: flex-end;
+    
     
   } 
 
   .portfolio .led-wall{
-    line-height: 100px;
-  }
+    line-height: 50px;
+    justify-content: flex-end;
+    width: 490px;
+    }
+
+    .portfolio .calculator{
+      line-height: 50px;
+      justify-content: flex-end;
+      width: 490px;
+    } 
+
+    .portfolio .pastel-puzzels{
+      line-height: 50px;
+      justify-content: flex-end;
+      width: 490px;
+    } 
+
+    .portfolio .run-buddy{
+      line-height: 50px;
+      justify-content: flex-end;
+      width: 490px;
+
+    }
