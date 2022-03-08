@@ -48,7 +48,57 @@ header nav ul {
     font-weight: lighter;
     font-size: 1.55vw;
     text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
   } 
 /* HEADER / NAV BAR STYLES END */ 
 
 
+/* FOOTER STYLES START */
+
+footer {
+    background-color: rgb(119, 145, 122);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* FOOTER STYLES END */ 
+
+/* HERO STYLES START */ 
+
+.hero {
+    background-image: url('../images/hero.jpeg');
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+  
+  } 
+
+  .hero-subtitle h1 {
+      float: right;
+      margin: 0;
+      position: absolute;
+      bottom: 520px;
+      right: 100px;
+      background-color: rgb(179, 157, 118);
+      font-size: 35px;
+  } 
+
+  /* HERO STYLES END */ 
+
+  /* ABOUT ME START*/ 
+
+  .about-me-text{
+      padding-left: 500px;
+      padding-top: 100px;
+  }
+
+  .flex-row{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 100px;
+      font-size: 35px;
+  }
