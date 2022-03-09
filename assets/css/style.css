@@ -154,12 +154,15 @@ footer {
     line-height: 45px;
     font-size: 30px;
     padding-left: 3.5%;
+    font-weight: bolder;
   } 
 
   .portfolio .surf-report{
     line-height: 150px;
     width: 1000px;
-    
+    background-image: url("../images/surfboard.webp");
+    background-size: 50%;
+    font-weight: bolder;
     
   } 
 
@@ -167,24 +170,32 @@ footer {
     line-height: 50px;
     justify-content: flex-end;
     width: 490px;
+    background-image: url("../images/led-wall.jpeg");
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
     }
 
     .portfolio .calculator{
       line-height: 50px;
       justify-content: flex-end;
       width: 490px;
+      background-image: url("../images/calculator.jpeg");
     } 
 
     .portfolio .pastel-puzzels{
       line-height: 50px;
       justify-content: flex-end;
       width: 490px;
+      background-image: url("../images/pastel.jpeg");
     } 
 
     .portfolio .run-buddy{
       line-height: 50px;
       justify-content: flex-end;
       width: 490px;
+      background-image: url("../images/run-buddy.png");
+      background-size: 100%;
     }
 
     .vertical-line-2{
