@@ -103,6 +103,7 @@ footer {
       font-size: 35px;
       padding-left: 10%;
       font-weight: 10;
+      float: left;
   }
 
   .flex-row-1 h1{
@@ -141,6 +142,8 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    margin: 50px 
+  
   } 
 
   .portfolio > div {
@@ -150,6 +153,7 @@ footer {
     text-align: center;
     line-height: 45px;
     font-size: 30px;
+    padding-left: 3.5%;
   } 
 
   .portfolio .surf-report{
@@ -181,5 +185,29 @@ footer {
       line-height: 50px;
       justify-content: flex-end;
       width: 490px;
-
     }
+
+    .vertical-line-2{
+      border-left: 6px solid rgb(134, 109, 75);
+    height: 500px;
+    position: absolute;
+    left: 26%;
+    margin-right: -3px; 
+    margin: 10px;
+    padding: 20px;
+    }
+
+   
+    .work-text{
+      display: flex;
+      font-size: 35px;
+      padding-left: 10%;
+      font-weight: 10;
+  } 
+
+  .work-text h1{
+    font-weight: 10;
+    margin: 10px;
+      padding: 100px;
+    
+  }
