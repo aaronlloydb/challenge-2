@@ -63,7 +63,27 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-}
+} 
+
+footer h1 {
+  font-weight: 10;
+  font-size: 47px; 
+  margin: 0;
+  display: inline;
+  justify-content: space-between;
+  }
+
+  .c-me{
+      display: flex; 
+      justify-content: space-around;
+      
+  }
+
+  .c-me h1{
+    
+  }
+
+
 
 /* FOOTER STYLES END */ 
 
@@ -219,6 +239,56 @@ footer {
   .work-text h1{
     font-weight: 10;
     margin: 10px;
-      padding: 100px;
-    
+    padding: 100px;
+    } 
+
+     /* WORK End*/ 
+
+
+    /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+    @media screen and (max-width: 980px) {
+      .hero h1{
+        display: none;
+      } 
+
+      .vertical-line-1{
+        display: none;
+      }
+      
+      .vertical-line-2{
+        display: none;
+      }
+    }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .hero h1{
+    display: none;
+  } 
+
+  .vertical-line-1{
+    display: none;
   }
+  
+  .vertical-line-2{
+    display: none;
+  }
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+  .hero h1{
+    display: none;
+  } 
+
+  .vertical-line-1{
+    display: none;
+  }
+  
+  .vertical-line-2{
+    display: none;
+  }
+}
+
